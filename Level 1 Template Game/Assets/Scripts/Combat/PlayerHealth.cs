@@ -12,7 +12,7 @@ public class PlayerHealth : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        playerHealth = healthSlider.value;
+        healthSlider.value = playerHealth;
         if(playerHealth <= 0)
         {
             GameOver();

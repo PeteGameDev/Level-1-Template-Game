@@ -102,8 +102,8 @@ MonoBehaviour:
   enemyHealth: 10
   attackRate: 1
   attackDelay: 1
-  damageAmount: 2
-  attackDistance: 1
+  damageAmount: 5
+  attackDistance: 2
 --- !u!61 &7183385658373101271
 BoxCollider2D:
   m_ObjectHideFlags: 0
